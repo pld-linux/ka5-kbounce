@@ -46,6 +46,12 @@ is played on a field, surrounded by wall, with two or more balls
 bouncing around within the walls. The object of the game is to build
 new walls to decrease the size of the active field.
 
+%description -l pl.UTF-8
+KBounce jest jednoosobową grą zręcznościową z elementami zagadki. Jest
+rozgrywana na polu otoczonym ścianami, z dwoma lub więcej piłkami
+odbijającymi się od ścian. Celem gry jest budowanie nowych ścian, żeby
+zmniejszać rozmiar aktywnego pola gry.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
